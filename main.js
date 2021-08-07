@@ -43,7 +43,7 @@ function saveIssue(e) {
       document.getElementById('issueInputForm').reset();
 
     fetchIssues();
-    event.preventDefault();
+    e.preventDefault();
 }
 
 
